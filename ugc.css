@@ -1,0 +1,6 @@
+@media(max-width: 768px){
+    .mobile{
+        font-size: 8px !important;
+        background-color: rgba(224, 210, 194, 0.613) !important;
+    }
+}

@@ -1,0 +1,300 @@
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)) , url("tree-838667_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-bottom: 100px;
+    color: white;
+    clip-path: polygon(100% 0, 100% 100%, 0% 80%, 0 100%, 0 0);
+    height: 800px !important;
+}
+header>nav{
+    background-color: rgba(255, 255, 255, 0.488);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    transform: rotate(-10deg);
+    transform: scale(1.1);
+}
+.jpl{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 5px solid rgb(201, 201, 201);
+}
+
+header>div>p{
+    margin-top: 20px;
+}
+header>div>p>span{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(180, 211, 5);
+}
+
+#carouselExampleAutoplaying img{
+    filter: brightness(40%);
+}
+#projects img{
+    transition: 1s;
+}
+#projects img:hover{
+    transform: scale(0.9);
+}
+#top-button{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right:  20px;
+}
+.abt{
+    height: 500px !important;
+}
+.mani{
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    height: 400px;
+    border-radius: 20px;
+}
+.mani:hover{
+    box-shadow: 0px 10px 10px rgba(77, 87, 222, 0.3);
+}
+.xyz{
+    box-shadow: 0px 10px 10px rgba(77, 87, 222, 0.3);
+    cursor:pointer;
+}
+.mno{
+    cursor: pointer;
+    background-color: rgb(122, 211, 193);
+    box-shadow: 0px 14px 15px rgb(54, 99, 117);
+    transition: all 0.5s;
+    border-radius: 30px;
+
+}
+.mnos{
+    cursor: pointer;
+    background-color: rgb(122, 211, 193);
+    box-shadow: 0px 14px 15px rgb(54, 99, 117);
+    transition: all 0.5s;
+    border-radius: 30px;
+
+}
+.mno:hover{
+    background-color:aliceblue;
+    box-shadow: 0px 10px 10px rgb(117, 167, 218);
+}
+.mks{
+    font-size: 1vw;
+}
+.mkss{
+    font-size: 1.5vw;
+}
+@media(max-width: 768px){
+    .mks{
+        font-size: 10px;
+    }
+    .mno{
+        height: 150px
+    }
+    .mnos{
+        height: 220px
+    }
+    .mkss{
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+    .kll{
+        font-size: 25px;
+        margin-top: 80px !important;
+        margin-left: 10px !important;
+        margin-bottom: -10px !important;
+    }
+    .klo{
+        height: 25px !important;
+        width: 5px !important;
+        margin-left: 22px;
+        margin-top: 80px !important;
+    }
+    .klp{
+        font-size: 3.5vw !important;
+        margin-bottom: -5px !important;
+    }
+    .patent{
+        width: 50px !important;
+        height: 215px !important;
+        margin-left: -50px !important;
+        margin-top: -20px !important;
+        margin-bottom: 15px !important;
+        text-align: justify !important;
+        letter-spacing: -0.9px !important;
+    }
+    .pk{
+        font-size: 13px !important;
+        margin-left: -10px !important;
+        margin-top: -10px !important;
+        margin-bottom: 2px !important;
+    }
+    .pk2{
+        font-size: 11px !important;
+        margin-left: -10px !important;
+        margin-bottom: 3px !important;
+    }
+    .pk3{
+        font-size: 10px !important;
+        margin-left: -10px !important;
+    }
+    .pk4{
+        font-size: 10px !important;
+        margin-left: -10px !important;
+        margin-bottom: 5px !important;
+    }
+    .pk5{
+        font-size: 10px !important;
+        margin-left: -10px !important;
+    }
+    .pkl{
+        margin-left: 30px !important;
+        margin-right: -50px;
+    }
+    .pk6{
+        font-size: 10px;
+        margin-left: -10px !important;
+    }
+    .ooo{
+        width: 100% !important;
+        height: 10%;
+    }
+    .alpha{
+        font-size: 18px !important;
+    }
+    .bita{
+        font-size: 12px !important;
+    }
+    .pql{
+        width: 100px !important;
+        margin-left: 20px !important;
+        margin-top: 18px !important;
+        background-color: aquamarine;
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 50% !important;
+    }
+    .pqls{
+        font-size: 10px !important;
+        margin-top: 15px !important;
+        color: white !important;
+    }
+    .jjj{
+        margin-left: 0px !important;
+    }
+    .bk{
+        font-size: 10px !important;
+    }
+    .jpl{
+        width: 270px;
+        height: 320px;
+        border-radius: 50%;
+        border: 5px solid rgb(201, 201, 201);
+    }
+    .bitas{
+        font-size: 10px;
+        
+    }
+}
+.border{
+    border: 1px solid black !important;
+    background-color:white;
+    color: rgba(26, 21, 21, 0.801);
+    transition: all 0.5s;
+    border-radius: 20px !important;
+    padding: 20px;
+}
+.border:hover{
+    background-color: rgb(18, 114, 197);
+    color: white;
+}
+.kkkk{
+    width: 100% !important;
+}
+.klp{
+    margin-left: 25px !important;
+}
+.logos{
+    font-size: 20px !important;
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .kkkk {
+        margin-left: 300px !important;
+    }
+    
+}
+.patent{
+    width: 580px !important;
+}
+.peak :hover{
+    background-color: white ;
+    color: black;
+}
+.center-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+  }
+  
+  .hhh {
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  /*****SKILL SECTION*****/
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color:white !important;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+}
+.pqls{
+    margin-top: 12px !important;
+}
